@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+authorarray	cite.php	/^                    $authorarray = array($coauthor->last_name, ', ',$coauthor->first_name);$/;"	v
+authorcount	cite.php	/^        $authorcount = 1;$/;"	v
+authors	cite.php	/^                    $authors = implode($authorarray);$/;"	v
+authors	cite.php	/^            $authors = implode($authorarray);$/;"	v
+authors	cite.php	/^        $authors = get_the_author();$/;"	v
+cite_shortcode	cite.php	/^function cite_shortcode() {$/;"	f
+displayTodaysDate	cite.php	/^    function displayTodaysDate() {$/;"	f
+doi_address	cite.php	/^    $doi_address = get_post_meta(get_the_ID(), 'DOI_address', true);$/;"	v
+edited_setting	cite.php	/^    $edited_setting = str_replace($find_string, $replace_string, $wpcp_setting[setting]);$/;"	v
+find_string	cite.php	/^    $find_string = array('{author}','{sitename}', '{title}', '{date}', '{publication_date}', '{permalink}');$/;"	v
+numItems	cite.php	/^        $numItems = count(get_coauthors());$/;"	v
+permalink	cite.php	/^        $permalink = '<a href="' . $doi_address . '">' . $doi_address . '<\/a>';$/;"	v
+permalink	cite.php	/^        $permalink = '<a href="' . get_permalink() . '">' . get_permalink() . '<\/a>';$/;"	v
+replace_string	cite.php	/^    $replace_string = array($authors, get_bloginfo('name'), get_the_title(), displayTodaysDate(), get_the_date('F Y'), $permalink);$/;"	v
+separator	cite.php	/^                      $separator = ", ";$/;"	v
+separator	cite.php	/^                  $separator = " & ";$/;"	v
+wpcp_admin	cite.php	/^function wpcp_admin() {$/;"	f
+wpcp_admin_head	cite.php	/^function wpcp_admin_head() {$/;"	f
+wpcp_default	cite.php	/^$wpcp_default = apply_filters('wpcp_default_setting', array($/;"	v
+wpcp_head	cite.php	/^function wpcp_head() {$/;"	f
+wpcp_register_setting	cite.php	/^function wpcp_register_setting() {$/;"	f
+wpcp_setting	cite.php	/^$wpcp_setting = wp_parse_args(get_option('wpcp_setting'), $wpcp_default);$/;"	v
+wpcp_setting_menu	cite.php	/^function wpcp_setting_menu() {$/;"	f
+wpcp_setting_page	cite.php	/^function wpcp_setting_page() {$/;"	f
+wpcp_setting_update_check	cite.php	/^function wpcp_setting_update_check() {$/;"	f
